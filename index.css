@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#title, #type, #heightTitle, #heightText, #weightTitle, #weightText{
+    text-transform: capitalize;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+#evolve, #devolve{
+    font-family: 'Segoe UI';
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#evolve{
+    background-color: rgb(118, 227, 158);
+    transition: background-color 0.2s
+}
+
+#evolve:hover{
+    background-color: rgb(42, 204, 102);
+}
+
+#devolve{
+    background-color: rgb(232, 117, 117);
+    transition: background-color 0.2s
+}
+
+#devolve:hover{
+    background-color: rgb(209, 64, 64);
+}
+
+
