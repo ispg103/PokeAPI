@@ -1,7 +1,32 @@
 body{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-image: url(https://i.pinimg.com/564x/33/ac/6a/33ac6af8e90054568ab47ad0ef2d02a2.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+#imagen{
+    width: 400px;
+}
+
+#pokeContainer{
+    width: 500px;
+    height: 200px;
+    gap: 30px;
+}
+
+#card{
+    background-color: rgba(255, 219, 166, 0.635);
+    border-radius: 20px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
 }
 
 #title, #type, #heightTitle, #heightText, #weightTitle, #weightText{
